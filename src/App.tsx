@@ -1,5 +1,5 @@
 import React from 'react';
-import { motion } from 'framer-motion';
+import { motion } from 'motion/react';
 import { Hammer, Menu, Armchair, History, Layers, ArrowRight, Quote, MapPin, Phone, Mail, Share2, Instagram, Globe } from 'lucide-react';
 
 const Reveal = ({ children, className = "", delay = 0 }: { children: React.ReactNode, className?: string, delay?: number }) => (
