@@ -1,29 +1,231 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="pt-BR">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
-    <!-- SEO Meta Tags -->
+    <!-- ================= SEO & META TAGS ================= -->
     <title>Marcenaria Fina | Móveis Planejados e Restauração</title>
-    <meta name="description" content="Serviços especializados de marcenaria fina para sua casa e escritório. Móveis planejados, restauração e estruturas de madeira com acabamento impecável." />
-    <meta name="keywords" content="marcenaria, móveis planejados, restauração de móveis, estruturas de madeira, marcenaria fina, móveis sob medida, carpintaria" />
-    <meta name="author" content="Marcenaria Fina" />
-    <meta name="robots" content="index, follow" />
-    
-    <!-- Open Graph / Redes Sociais -->
-    <meta property="og:type" content="website" />
-    <meta property="og:title" content="Marcenaria Fina | Móveis Planejados e Restauração" />
-    <meta property="og:description" content="Serviços especializados de marcenaria fina para sua casa e escritório. Peças exclusivas com acabamento impecável." />
-    <meta property="og:image" content="https://lh3.googleusercontent.com/aida-public/AB6AXuDgbnsUDZDEkakETlmJUUfAZSlmb--DpXzByFtY7nimwpp7PvXcekHiZnf2xkbZbqy81MrehPmpA13nrWxXUzQtUPRrTvxK7NWaj4TKICoVVOtn1iF5iT65eqjqgVLpBl41ZZFMAIicmeBNyyGJWjT8OKSvTMzBHxLo-PAZbSOeQ7fHDc2eEMCJyNhYfIT2VVNWA_DWmoegvx0Uasb-LK5q3Fg--6cn8cDwq0Hfr0l5loz0SzSsFlarXlZpnYoiUihaFnKxQzA2OdM8" />
-    
-    <!-- Preload da Imagem Principal (Hero) para Performance (< 2s LCP) -->
-    <link rel="preload" as="image" href="https://lh3.googleusercontent.com/aida-public/AB6AXuDgbnsUDZDEkakETlmJUUfAZSlmb--DpXzByFtY7nimwpp7PvXcekHiZnf2xkbZbqy81MrehPmpA13nrWxXUzQtUPRrTvxK7NWaj4TKICoVVOtn1iF5iT65eqjqgVLpBl41ZZFMAIicmeBNyyGJWjT8OKSvTMzBHxLo-PAZbSOeQ7fHDc2eEMCJyNhYfIT2VVNWA_DWmoegvx0Uasb-LK5q3Fg--6cn8cDwq0Hfr0l5loz0SzSsFlarXlZpnYoiUihaFnKxQzA2OdM8" />
+    <meta name="description" content="Serviços especializados de marcenaria fina para sua casa e escritório. Móveis planejados, restauração e estruturas de madeira com acabamento impecável.">
+    <meta name="keywords" content="marcenaria, móveis planejados, restauração de móveis, estruturas de madeira, marcenaria fina, móveis sob medida, carpintaria, madeira maciça">
+    <meta name="author" content="Marcenaria Fina">
+    <meta name="robots" content="index, follow">
 
-  </head>
-  <body>
-    <div id="root"></div>
-    <script type="module" src="/src/main.tsx"></script>
-  </body>
-</html>
+    <!-- ================= OPEN GRAPH (WhatsApp, Facebook, LinkedIn) ================= -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Marcenaria Fina | Transformando Madeira em Arte">
+    <meta property="og:description" content="Serviços especializados de marcenaria fina. Peças exclusivas com acabamento impecável para sua casa e escritório.">
+    <meta property="og:image" content="https://lh3.googleusercontent.com/aida-public/AB6AXuDgbnsUDZDEkakETlmJUUfAZSlmb--DpXzByFtY7nimwpp7PvXcekHiZnf2xkbZbqy81MrehPmpA13nrWxXUzQtUPRrTvxK7NWaj4TKICoVVOtn1iF5iT65eqjqgVLpBl41ZZFMAIicmeBNyyGJWjT8OKSvTMzBHxLo-PAZbSOeQ7fHDc2eEMCJyNhYfIT2VVNWA_DWmoegvx0Uasb-LK5q3Fg--6cn8cDwq0Hfr0l5loz0SzSsFlarXlZpnYoiUihaFnKxQzA2OdM8">
 
+    <!-- ================= FAVICON (Codificado para não quebrar o HTML) ================= -->
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23d2691e' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='m15 12-8.5 8.5c-.83.83-2.17.83-3 0 0 0 0 0 0 0a2.12 2.12 0 0 1 0-3L12 9'/%3E%3Cpath d='M17.64 15 22 10.64'/%3E%3Cpath d='m20.91 11.7-1.25-1.25c-.6-.6-.93-1.4-.93-2.25v-.86L16 4.6V3.86a3.18 3.18 0 0 0-.93-2.25L13.82.36'/%3E%3Cpath d='m7 15 5.5 5.5'/%3E%3C/svg%3E">
+
+    <!-- ================= PERFORMANCE PRELOADS ================= -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://cdn.tailwindcss.com">
+    
+    <!-- Preload da imagem principal para abrir instantaneamente -->
+    <link rel="preload" as="image" href="https://lh3.googleusercontent.com/aida-public/AB6AXuDgbnsUDZDEkakETlmJUUfAZSlmb--DpXzByFtY7nimwpp7PvXcekHiZnf2xkbZbqy81MrehPmpA13nrWxXUzQtUPRrTvxK7NWaj4TKICoVVOtn1iF5iT65eqjqgVLpBl41ZZFMAIicmeBNyyGJWjT8OKSvTMzBHxLo-PAZbSOeQ7fHDc2eEMCJyNhYfIT2VVNWA_DWmoegvx0Uasb-LK5q3Fg--6cn8cDwq0Hfr0l5loz0SzSsFlarXlZpnYoiUihaFnKxQzA2OdM8">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;900&display=swap" rel="stylesheet">
+
+    <!-- ================= TAILWIND CSS ================= -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        primary: '#d2691e',
+                        'background-dark': '#1a1410',
+                    },
+                    fontFamily: {
+                        sans: ['Inter', 'ui-sans-serif', 'system-ui', 'sans-serif'],
+                    }
+                }
+            }
+        }
+    </script>
+
+    <!-- ================= CUSTOM CSS ================= -->
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #1a1410; /* Cor de fundo garantida antes do Tailwind carregar */
+            color: #f1f5f9;
+            overflow-x: hidden;
+            margin: 0;
+        }
+        
+        ::selection {
+            background-color: #d2691e;
+            color: white;
+        }
+
+        /* Animações otimizadas */
+        .reveal, .hero-reveal {
+            opacity: 0;
+            will-change: opacity, transform;
+        }
+
+        .reveal {
+            transform: translateY(30px);
+            transition: opacity 0.8s cubic-bezier(0.16, 1, 0.3, 1), transform 0.8s cubic-bezier(0.16, 1, 0.3, 1);
+        }
+        
+        .hero-reveal {
+            transform: translateY(20px);
+            transition: opacity 0.8s cubic-bezier(0.16, 1, 0.3, 1), transform 0.8s cubic-bezier(0.16, 1, 0.3, 1);
+        }
+
+        .reveal.active, .hero-reveal.active {
+            opacity: 1;
+            transform: translateY(0);
+        }
+        
+        .delay-100 { transition-delay: 100ms; }
+        .delay-200 { transition-delay: 200ms; }
+        .delay-300 { transition-delay: 300ms; }
+        .delay-400 { transition-delay: 400ms; }
+    </style>
+</head>
+<body class="bg-background-dark text-slate-100 min-h-screen font-sans selection:bg-primary selection:text-white">
+
+    <!-- Header -->
+    <header class="fixed top-0 z-50 w-full bg-background-dark/90 backdrop-blur-md border-b border-primary/20">
+        <div class="flex items-center p-4 justify-between max-w-7xl mx-auto">
+            <div class="text-primary flex size-10 shrink-0 items-center">
+                <!-- Ícone Martelo -->
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-8 h-8"><path d="m15 12-8.5 8.5c-.83.83-2.17.83-3 0 0 0 0 0 0 0a2.12 2.12 0 0 1 0-3L12 9"/><path d="M17.64 15 22 10.64"/><path d="m20.91 11.7-1.25-1.25c-.6-.6-.93-1.4-.93-2.25v-.86L16 4.6V3.86a3.18 3.18 0 0 0-.93-2.25L13.82.36"/><path d="m7 15 5.5 5.5"/></svg>
+            </div>
+            <span class="text-white text-xl font-bold leading-tight tracking-[-0.015em] flex-1 ml-2">Marcenaria</span>
+            <nav aria-label="Menu Principal" class="flex items-center justify-end">
+                <button aria-label="Abrir menu" class="flex cursor-pointer items-center justify-center rounded-lg h-10 w-10 bg-transparent text-white hover:bg-white/10 transition-colors">
+                    <!-- Ícone Menu -->
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-6 h-6"><line x1="4" x2="20" y1="12" y2="12"/><line x1="4" x2="20" y1="6" y2="6"/><line x1="4" x2="20" y1="18" y2="18"/></svg>
+                </button>
+            </nav>
+        </div>
+    </header>
+
+    <main class="pt-16">
+        <!-- Hero Section -->
+        <section class="relative" aria-label="Destaque">
+            <div class="flex min-h-[75vh] flex-col gap-6 bg-cover bg-center bg-no-repeat items-start justify-end px-6 pb-16 relative overflow-hidden" 
+                 style="background-image: linear-gradient(rgba(33, 24, 17, 0.4) 0%, rgba(33, 24, 17, 0.9) 100%), url('https://lh3.googleusercontent.com/aida-public/AB6AXuDgbnsUDZDEkakETlmJUUfAZSlmb--DpXzByFtY7nimwpp7PvXcekHiZnf2xkbZbqy81MrehPmpA13nrWxXUzQtUPRrTvxK7NWaj4TKICoVVOtn1iF5iT65eqjqgVLpBl41ZZFMAIicmeBNyyGJWjT8OKSvTMzBHxLo-PAZbSOeQ7fHDc2eEMCJyNhYfIT2VVNWA_DWmoegvx0Uasb-LK5q3Fg--6cn8cDwq0Hfr0l5loz0SzSsFlarXlZpnYoiUihaFnKxQzA2OdM8')">
+                
+                <div class="flex flex-col gap-4 max-w-2xl hero-reveal">
+                    <span class="inline-block w-fit px-3 py-1 bg-primary text-white text-xs font-bold uppercase tracking-widest rounded">Excelência em Madeira</span>
+                    <h1 class="text-white text-5xl font-black leading-tight tracking-[-0.033em] md:text-7xl">
+                        Transformando Madeira em Arte
+                    </h1>
+                    <p class="text-slate-300 text-lg font-normal leading-relaxed md:text-xl">
+                        Serviços especializados de marcenaria para sua casa e escritório. Peças exclusivas com acabamento impecável.
+                    </p>
+                </div>
+                <button class="flex min-w-[200px] cursor-pointer items-center justify-center overflow-hidden rounded-xl h-14 px-8 bg-primary text-white text-lg font-bold hover:bg-primary/90 transition-all hover:scale-105 active:scale-95 hero-reveal delay-200">
+                    Solicitar Orçamento
+                </button>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section class="py-20 px-6 max-w-7xl mx-auto" aria-labelledby="about-title">
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+                <article class="space-y-6 reveal">
+                    <h2 id="about-title" class="text-primary text-sm font-bold tracking-[0.2em] uppercase">O Artesão</h2>
+                    <h3 class="text-3xl md:text-4xl font-bold leading-tight text-primary">Paixão pelos detalhes, compromisso com a qualidade</h3>
+                    <p class="text-slate-400 text-lg leading-relaxed">
+                        Com mais de 20 anos de experiência em marcenaria fina, combinamos técnicas tradicionais de montagem manual com o que há de mais moderno em design e acabamentos. Cada peça é tratada como uma obra de arte única, construída para durar por gerações.
+                    </p>
+                    <div class="grid grid-cols-2 gap-4 pt-4">
+                        <div class="border-l-2 border-primary pl-4">
+                            <span class="block text-2xl font-bold text-white">500+</span>
+                            <span class="text-slate-500 text-sm">Projetos Entregues</span>
+                        </div>
+                        <div class="border-l-2 border-primary pl-4">
+                            <span class="block text-2xl font-bold text-white">100%</span>
+                            <span class="text-slate-500 text-sm">Madeira Certificada</span>
+                        </div>
+                    </div>
+                </article>
+                <div class="relative rounded-2xl overflow-hidden aspect-[4/3] md:aspect-[16/10] shadow-2xl border border-primary/10 group reveal">
+                    <!-- Lazy loading e async decoding para performance -->
+                    <img alt="Ferramentas de marcenaria sobre uma mesa de madeira" 
+                         class="object-cover w-full h-full group-hover:scale-105 transition-transform duration-700" 
+                         src="https://lh3.googleusercontent.com/aida-public/AB6AXuB_gdn5E1w3o7LVCNdNikjsa-7eE4G6_ieaTIHHtSDN0IKuaZY9ZldGi30QWgxq2CZBIdRAfRk63iT6DLIP9saHYvY0m0lRG6HKJTm8R7OLOatoquq1WbXDz8b95k2TXsUw0Kld1q1Y7GNhUpwQArBVb4eUG777ZI4miwDPgqoOT8z10dc-_81QOBkLpEvMXq3zbb_LQH1F6t659E-ESlVBW0lOR-glRX6jHSBllTGON71KqXS4_ol3HVpGWZu5bhqSVXjpV_PVApNw"
+                         referrerpolicy="no-referrer" loading="lazy" decoding="async" />
+                </div>
+            </div>
+        </section>
+
+        <!-- Services Section -->
+        <section class="py-20 bg-background-dark/50 px-6" aria-labelledby="services-title">
+            <div class="max-w-7xl mx-auto">
+                <div class="text-center mb-16">
+                    <h2 id="services-title" class="text-primary text-sm font-bold tracking-[0.2em] uppercase mb-4">Especialidades</h2>
+                    <h3 class="text-3xl md:text-4xl font-bold text-white">Nossos Serviços</h3>
+                </div>
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                    <article class="bg-background-dark border border-primary/10 p-8 rounded-2xl hover:border-primary transition-all group hover:-translate-y-2 reveal delay-100">
+                        <div class="w-14 h-14 bg-primary/10 rounded-xl flex items-center justify-center text-primary mb-6 group-hover:bg-primary group-hover:text-white transition-colors">
+                            <!-- Ícone Armchair -->
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-8 h-8"><path d="M19 9V6a2 2 0 0 0-2-2H7a2 2 0 0 0-2 2v3"/><path d="M3 16a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-5a2 2 0 0 0-4 0v2H7v-2a2 2 0 0 0-4 0Z"/><path d="M5 18v2"/><path d="M19 18v2"/></svg>
+                        </div>
+                        <h4 class="text-xl font-bold text-white mb-3">Móveis Planejados</h4>
+                        <p class="text-slate-400">Design sob medida para cozinhas, quartos e escritórios, otimizando seu espaço com elegância.</p>
+                    </article>
+                    
+                    <article class="bg-background-dark border border-primary/10 p-8 rounded-2xl hover:border-primary transition-all group hover:-translate-y-2 reveal delay-200">
+                        <div class="w-14 h-14 bg-primary/10 rounded-xl flex items-center justify-center text-primary mb-6 group-hover:bg-primary group-hover:text-white transition-colors">
+                            <!-- Ícone History -->
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-8 h-8"><path d="M3 12a9 9 0 1 0 9-9 9.75 9.75 0 0 0-6.74 2.74L3 8"/><path d="M3 3v5h5"/><path d="M12 7v5l4 2"/></svg>
+                        </div>
+                        <h4 class="text-xl font-bold text-white mb-3">Restauração</h4>
+                        <p class="text-slate-400">Devolvemos a vida e o brilho original a móveis antigos e peças de valor sentimental.</p>
+                    </article>
+                    
+                    <article class="bg-background-dark border border-primary/10 p-8 rounded-2xl hover:border-primary transition-all group hover:-translate-y-2 reveal delay-300">
+                        <div class="w-14 h-14 bg-primary/10 rounded-xl flex items-center justify-center text-primary mb-6 group-hover:bg-primary group-hover:text-white transition-colors">
+                            <!-- Ícone Layers -->
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-8 h-8"><polygon points="12 2 2 7 12 12 22 7 12 2"/><polyline points="2 17 12 22 22 17"/><polyline points="2 12 12 17 22 12"/></svg>
+                        </div>
+                        <h4 class="text-xl font-bold text-white mb-3">Estruturas de Madeira</h4>
+                        <p class="text-slate-400">Construção de decks, pergolados e telhados com a melhor madeira do mercado.</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- Portfolio Section -->
+        <section class="py-20 px-6 max-w-7xl mx-auto" aria-labelledby="portfolio-title">
+            <div class="flex flex-col md:flex-row justify-between items-end mb-12 gap-6">
+                <div>
+                    <h2 id="portfolio-title" class="text-primary text-sm font-bold tracking-[0.2em] uppercase mb-4">Galeria</h2>
+                    <h3 class="text-3xl md:text-4xl font-bold text-primary">Portfólio de Projetos</h3>
+                </div>
+                <button class="text-primary font-bold flex items-center gap-2 hover:underline cursor-pointer">
+                    Ver todos os projetos 
+                    <!-- Ícone Arrow Right -->
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-5 h-5"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+                </button>
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                <article class="group relative overflow-hidden rounded-2xl aspect-[4/5] reveal delay-100">
+                    <img alt="Armários Modernos" class="object-cover w-full h-full group-hover:scale-110 transition-transform duration-500" src="https://azim.hostlin.com/Craftmax/assets/images/project/project-1.jpg" referrerpolicy="no-referrer" loading="lazy" decoding="async" />
+                    <div class="absolute inset-0 bg-gradient-to-t from-background-dark/90 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity p-6 flex flex-col justify-end">
+                        <h5 class="text-white font-bold text-lg">Armários Modernos</h5>
+                        <p class="text-slate-300 text-sm">Marcenaria Premium</p>
+                    </div>
+                </article>
+                
+                <article class="group relative overflow-hidden rounded-2xl aspect-[4/5] reveal delay-200">
+                    <img alt="Cozinha Minimalista" class="object-cover w-full h-full group-hover:scale-110 transition-transform duration-500" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBtkW6vQMzgxdELFIr574ZDsqGoAlQYfRu_KUAfy9bpxqwVzm0sHGqDB1mVJIBLo6ovg_LHw_zMLPybOl5Bm9qb9VA4JMFQxY_e9GhWTrPS4zR3oXdlScCAsSo1TNW_CHroxvG2CUFf-qo5GyygtB8nDkubmTQT6zGYEU3O_tMwuIfIAeHCDWVjtAmDYfWFvwrDYFT97zMml6qwTGvXJJMnDbwV-3VtcBwmelzJMXunnhOTVaiS0wCgQm4mIOL9VSHTZM8O0NK3d5fe" referrerpolicy="no-referrer" loading="lazy" decoding="async" />
+                    <div class="absolute inset-0 bg-gradient-to-t from-background-dark/90 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity p-6 flex flex-col justify-end">
+                        <h5 class="text-white font-bold text-lg">Cozinha Minimalista</h5>
+                        <p class="text-slate-300 text-sm">Carvalho Americano</p>
+                    </div>
+                </article>
+ 
