@@ -177,15 +177,14 @@ export default function App() {
             
             <Reveal delay={0.3} className="group relative overflow-hidden rounded-2xl aspect-[4/5]">
               <img 
-                alt="Escritório Executivo" 
+                alt="Madeira Maciça" 
                 className="object-cover w-full h-full group-hover:scale-110 transition-transform duration-500" 
                 src="https://lh3.googleusercontent.com/aida-public/AB6AXuCgfSBw_r5d70DC04dtg851eXlwTkSarWtjETD3IAB373Dzo7J50ZNARfmMiGf4M2RrtINDTm3DVuhv54qvoVibuJbp_Bsm6LkCRSlW7_aaRI5QBhI2QggYSdi7QsFv6IDk-jXGs00o2V7PnqYWwKOQ9Qun9LvbCBxFyqwiZfRQdnBolN3ORgZyQDZTawbZGL9h_KZluVxNYk7rcCPOf15lpGp7LsM_irWZmiVF9PJMRwUy3tIub9OmzDpfZTLIQgX4E-aKBFgpAh4K" 
                 referrerPolicy="no-referrer"
                 loading="lazy"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-background-dark/90 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity p-6 flex flex-col justify-end">
-                <h5 className="text-white font-bold text-lg">Escritório Executivo</h5>
-                <p className="text-slate-300 text-sm">Nogueira Maciça</p>
+                <h5 className="text-white font-bold text-lg">Madeira Maciça</h5>
               </div>
             </Reveal>
             
